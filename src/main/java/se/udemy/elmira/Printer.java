@@ -1,4 +1,4 @@
-package se.udemy.elmira.Challenge1;
+package se.udemy.elmira;
 
 public class Printer {
     private int tonerLevel;
