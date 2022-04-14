@@ -22,6 +22,10 @@ public class Account {
         this.customersPhoneNumber = customersPhoneNumber;
     }
 
+    public Account(String customerName, String customerEmailAddress, String customersPhoneNumber) {
+        this("99999", 100.55, customerName, customerEmailAddress, customersPhoneNumber);
+    }
+
     public void deposit(double depositAmount){
        this.balance += depositAmount;
         System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
