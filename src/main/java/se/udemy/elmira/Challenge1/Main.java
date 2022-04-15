@@ -1,7 +1,5 @@
 package se.udemy.elmira.Challenge1;
 
-import se.udemy.elmira.VipCustomer;
-
 public class Main {
     public Main() {
     }

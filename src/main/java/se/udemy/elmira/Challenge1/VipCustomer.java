@@ -1,4 +1,4 @@
-package se.udemy.elmira;
+package se.udemy.elmira.Challenge1;
 
 public class VipCustomer {
     private String name;
