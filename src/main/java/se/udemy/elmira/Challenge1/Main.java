@@ -1,6 +1,11 @@
 package se.udemy.elmira.Challenge1;
 
+import se.udemy.elmira.VipCustomer;
+
 public class Main {
+    public Main() {
+    }
+
     public static void main(String[] args) {
         //Created a new class for a bank account
         //Create fields for the account number, balance, customer name, email and phone number.
@@ -41,10 +46,12 @@ public class Main {
 
         System.out.println("_____________________________");
 
+         */
+
         Account timsAccount = new Account("Tim", "tim@gmail.com ", "12345");
         System.out.println(timsAccount.getNumber() + " name " + timsAccount.getCustomerName());
-
-         */
+        System.out.println("Current balance is " + timsAccount.getBalance());
+        timsAccount.withdrawal(100.55);
 
         //Create a new class VipCustomer
         //It should have 3 fields name, credit limit, and email address.
@@ -54,6 +61,25 @@ public class Main {
         //3rd constructor should save all fields.
         //Create getters only for this using code generation of intellij as setters wont be needed
         //test and confirm it works
+
+        /*
+        VipCustomer person1 = new VipCustomer();
+        System.out.println(person1.getName());
+        System.out.println(person1.getEmailAddress());
+
+        VipCustomer person2 = new VipCustomer("Bob", 25000.00);
+        System.out.println(person2.getName());
+        System.out.println(person2.getEmailAddress());
+
+        VipCustomer person3 = new VipCustomer("Tim", 100.00, "tim@email.com");
+        System.out.println(person3.getName());
+        System.out.println(person3.getEmailAddress());
+
+         */
+
+
+
+
 
 
     }
