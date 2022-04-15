@@ -25,7 +25,6 @@ public class Main {
 
          */
 
-
         /*
         Account bobsAccount = new Account();
         System.out.println(bobsAccount.getNumber());
@@ -76,12 +75,5 @@ public class Main {
         System.out.println(person3.getEmailAddress());
 
          */
-
-
-
-
-
-
     }
-
 }
